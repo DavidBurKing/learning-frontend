@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #F6BC18;
+
+    border: solid 4px #F6BC18;
+    border-radius: 13px;
+
+    width: 270px; /*Não nessecario*/
+    padding: 5px 10px;
+
+    margin: 50px auto;
+
+    transition: all 0.5s
+}
+
+
+h1:hover {
+    color: #B00CC4;
+    background-color: #F6BC18;
+}
