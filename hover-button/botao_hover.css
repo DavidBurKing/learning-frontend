@@ -3,23 +3,23 @@
 }
 
 h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #F6BC18;
+    text-align: center; /*Centralizar o texto*/
+    font-weight: bold; /*Aumentar a grossura do texto*/
+    color: #F6BC18; /*Cor do texto*/
 
-    border: solid 4px #F6BC18;
-    border-radius: 13px;
+    border: solid 4px #F6BC18; /*Estilos de borda, grossura da borda, cor da borda*/
+    border-radius: 13px; /*Definir bordas arredondadas*/
 
-    width: 270px; /*Não nessecario*/
-    padding: 5px 10px;
+    width: 270px; /*Você escolhe a largura do elemento*/
+    padding: 5px 10px; /*Espaço entre o elemento e a borda*/
 
-    margin: 50px auto;
+    margin: 50px auto; /*Espaço ao redor da borda*/
 
-    transition: all 0.5s
+    transition: all 0.5s 
 }
 
 
 h1:hover {
-    color: #B00CC4;
+    color: #B00CC4; 
     background-color: #F6BC18;
 }
