@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.ButtonHover {
     text-align: center; /*Centralizar o texto*/
     font-weight: bold; /*Aumentar a grossura do texto*/
     color: #F6BC18; /*Cor do texto*/
@@ -19,7 +19,7 @@ h1 {
 }
 
 
-h1:hover {
+.ButtonHover:hover {
     color: #B00CC4; 
     background-color: #F6BC18;
 }
